@@ -40,7 +40,7 @@ function Work() {
     },
   ];
   return (
-    <div className=" relative w-full   ">
+    <div className=" relative w-full overflow-hidden">
       <div className="max-w-[1290px] mx-auto text-center ">
         <h1 className="text-[30vw] leading-none tracking-tight font-medium select-none">
           work

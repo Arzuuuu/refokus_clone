@@ -2,11 +2,11 @@ import React from 'react'
 // import { GoArrowRight } from "react-icons/go";
 import { IoIosReturnRight } from 'react-icons/io';
 
-function Button() {
+function Button({title = "Start a Project"}) {
   return (
-    <div className='min-w-36 text-black bg-zinc-100 rounded-full px-3 py-1 pb-1 flex items-center justify-between'>
+    <div className=' cursor-pointer min-w-36 text-black bg-zinc-100 rounded-full px-4 py-2 pb-2 flex items-center justify-between'>
          
-        <span className='text-sm '>Start a Project</span>
+        <span className='text-sm '>{title}</span>
         <IoIosReturnRight/>
     </div>
   )
