@@ -2,14 +2,14 @@ import React from "react";
 import Button from "./Button";
 function Navbar() {
   return (
-    <div className="max-w-[1290px] mx-auto py-8 pt-10 flex justify-between items-center border-b-2 border-zinc-700">
+    <div className="max-w-[1290px] mx-auto pt-4 py-4 pt-10 flex justify-between items-center border-b-2 border-zinc-700">
       <div className="flex">
       <img
         src="https://cdn.prod.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"
         alt=""
       />
       <div className="links flex gap-14 ml-20">
-        {["Home", "Work", "About", "", "News"].map((elem, index) => (
+        {["Home", "Work", "About", "Careers", "", "News"].map((elem, index) => (
           <a className="text-sm flex items-center gap-1" href="#">
             {index === 1 && (
               <span
