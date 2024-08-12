@@ -1,0 +1,13 @@
+
+TO-DO
+1. Button Animations
+Implement animations for buttons to enhance user interaction.
+Consider using Framer Motion or CSS transitions for smooth effects.
+
+2. Smoothing the Video Inside <Motion.div>
+Improve the smoothness of video playback inside the Motion.div container.
+Explore potential solutions such as adjusting video properties or optimizing the container's animation settings.
+
+3. Animated Cursor
+Integrate and fine-tune the animated cursor for better user engagement.
+Ensure compatibility with other interactive elements on the page.
