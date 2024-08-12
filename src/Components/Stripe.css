@@ -1,0 +1,33 @@
+/* Stripe.css */
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite; /* Adjust the duration as needed */
+}
+
+.marquee-item {
+  min-width: 18rem; /* Adjust as needed */
+  padding: 1rem;
+  border-top: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  border-right: 1px solid #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
